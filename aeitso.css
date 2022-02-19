@@ -4,7 +4,7 @@
     display: flex;
     right: 8rem;
 }
-img {
+img.i0 {
     max-width: 274px;
 }
 
@@ -186,6 +186,7 @@ a {
 }
 
 #container {
+    z-index: 9999999;
     top: 10rem;
     position: absolute;
     width: fit-content;
@@ -294,7 +295,7 @@ h1.h1 {
     opacity: 1;
 }
 
-section {
+section.s1 {
     position: relative;
     display: flex;
 }
@@ -306,4 +307,23 @@ name {
 fame {
     color: #edff22;
     text-transform: capitalize;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+video {
+    width: -webkit-fill-available;
+}
+.video {
+    z-index: 0;
+    top: -7rem;
+    position: absolute;
+    right: 2rem;
+    display: flex;
+    max-width: 835px;
 }
